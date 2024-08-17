@@ -1,6 +1,5 @@
 body{
     text-align: center;
-    
 }
 
 .btn{
@@ -8,30 +7,36 @@ body{
     width: 200px;
     border-radius: 20%;
     border: 10px solid black;
-    margin: 3rem;
+    margin: 20px;
 }
-
+@media (max-width:768px) {
+    .btn{
+        height: 150px;
+        width: 150px;
+    }
+}
+@media (max-width:600px) {
+    .btn{
+        height: 100px;
+        width: 100px;
+    }
+}
 .btn-container{
     display: flex;
-    justify-items: center;
-    /* margin-left: 35%; */
+    justify-content: center;
 }
 .red{
-    background-color: red;
+    background-color: rgb(232, 82, 82);
 }
 .yellow{
-    background-color: yellow;
+    background-color: rgb(220, 220, 34);
 }
 .green{
-    background-color: green;
+    background-color: rgb(37, 167, 37);
 }
-.purple{
-    background-color: purple;
+.blue{
+    background-color: rgb(90, 90, 223);
 }
 .flash{
     background-color: aliceblue;
-}
-
-.userFlash{
-    background-color: rgb(127, 255, 127);
 }
